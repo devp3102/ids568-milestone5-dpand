@@ -1,0 +1,55 @@
+{
+  "experiments": [
+    {
+      "total_requests": 40,
+      "successful": 40,
+      "errors": 0,
+      "error_rate": 0.0,
+      "cache_hits": 27,
+      "cache_hit_rate": 0.675,
+      "throughput_rps": 2.0,
+      "latency_p50_ms": 2.59,
+      "latency_p95_ms": 128.62,
+      "latency_p99_ms": 129.05,
+      "latency_min_ms": 1.33,
+      "latency_max_ms": 129.05,
+      "latency_mean_ms": 41.39,
+      "load_level": "low",
+      "target_rate": 2
+    },
+    {
+      "total_requests": 100,
+      "successful": 100,
+      "errors": 0,
+      "error_rate": 0.0,
+      "cache_hits": 77,
+      "cache_hit_rate": 0.77,
+      "throughput_rps": 5.0,
+      "latency_p50_ms": 2.28,
+      "latency_p95_ms": 121.32,
+      "latency_p99_ms": 132.09,
+      "latency_min_ms": 0.54,
+      "latency_max_ms": 132.09,
+      "latency_mean_ms": 29.27,
+      "load_level": "medium",
+      "target_rate": 5
+    },
+    {
+      "total_requests": 198,
+      "successful": 198,
+      "errors": 0,
+      "error_rate": 0.0,
+      "cache_hits": 185,
+      "cache_hit_rate": 0.9343,
+      "throughput_rps": 9.9,
+      "latency_p50_ms": 2.1,
+      "latency_p95_ms": 122.53,
+      "latency_p99_ms": 133.65,
+      "latency_min_ms": 0.49,
+      "latency_max_ms": 140.06,
+      "latency_mean_ms": 10.29,
+      "load_level": "high",
+      "target_rate": 10
+    }
+  ]
+}
